@@ -1,0 +1,44 @@
+{
+  "1121": {
+    "name": "海賊王",
+    "previous_chapter_num": 1045,
+    "url": "haizeiwang-onepiece/",
+    "latest_chapter_num": 1045,
+    "new_chapter_available": true
+  },
+  "1122": {
+    "name": "王者天下",
+    "previous_chapter_num": 714,
+    "url": "wangzhetianxia/",
+    "latest_chapter_num": 714,
+    "new_chapter_available": true
+  },
+  "1123": {
+    "name": "咒術迴戰",
+    "previous_chapter_num": 180,
+    "url": "zhoushuhuizhan/",
+    "latest_chapter_num": 180,
+    "new_chapter_available": true
+  },
+  "1221": {
+    "name": "怪獸8號",
+    "previous_chapter_num": 59,
+    "url": "guaishou-8-hao/",
+    "latest_chapter_num": 59,
+    "new_chapter_available": true
+  },
+  "1223": {
+    "name": "戀上換裝娃娃",
+    "previous_chapter_num": 74,
+    "url": "gengyirenouzhuiruaihe/",
+    "latest_chapter_num": 74,
+    "new_chapter_available": true
+  },
+  "1224": {
+    "name": "我的英雄學院",
+    "previous_chapter_num": 349,
+    "url": "wodeyingxiongxueyuan/",
+    "latest_chapter_num": 349,
+    "new_chapter_available": true
+  }
+}
