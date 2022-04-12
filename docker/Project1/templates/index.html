@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Quality Inspection</title>
+</head>
+<style type="text/css">
+
+	.container{
+	  font-family: arial;
+	  font-size: 24px;
+	  top: 5%;
+      left: 40%;
+	  /* Setup */
+	  position: absolute;
+	}
+	.flash{
+		text-align: center
+	}
+</style>
+<body>
+	<div class = container>
+		<h1> Quality Inspection </h1>
+		{% with messages = get_flashed_messages() %}
+		    {% if messages %}
+		    <ul class="flash">
+		        {% for message in messages %}
+		            <h3>{{ message }}</li>
+		        {% endfor %}
+		    </ul>
+		    {% endif %}
+	    {% endwith %}
+		<form method=POST enctype=multipart/form-data action="{{ url_for('upload') }}">
+		    <input type=file name=photo>
+		    <input type="submit">
+		</form>
+		{% if filename %}
+			<div>
+            	<img src="{{filename}}" alt = 'File Image'>
+			</div>
+		{% endif %}
+	</div>
+</body>
+</html>
