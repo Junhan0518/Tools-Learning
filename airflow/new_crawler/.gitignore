@@ -1,0 +1,4 @@
+logs/
+*.err
+*.log
+*.out
